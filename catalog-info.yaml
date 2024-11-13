@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "pod-service-shk"
+  annotations:
+    "humanitec.com/orgId": "kubecon-na-2024"
+    "humanitec.com/appId": "pod-service-shk"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
